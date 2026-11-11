@@ -1,0 +1,17 @@
+# Build outputs
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Generated, verification, and backup content
+CODEX/*
+!CODEX/GeneratedAssets/
+!CODEX/GeneratedAssets/**
+!CODEX/work/
+CODEX/work/*
+!CODEX/work/make-app-icon.py
+
+# Logs
+*.log
